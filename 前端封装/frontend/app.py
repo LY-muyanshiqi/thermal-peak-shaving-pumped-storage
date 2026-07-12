@@ -23,6 +23,7 @@ import styles
 import charts
 import config
 import report
+import ccer_page
 warnings.filterwarnings('ignore')
 
 # 尝试导入增强模块（新增功能）
@@ -1442,6 +1443,12 @@ def main():
 
         elif page == "🗃️ 原始数据浏览":
             show_data_browser(data)
+
+        elif page == "💰 碳交易核算":
+            ccer_page.show_ccer_page()
+
+        elif page == "🏭 园区场景应用":
+            ccer_page.show_park_page()
 
         # 页脚
         st.markdown("---")
