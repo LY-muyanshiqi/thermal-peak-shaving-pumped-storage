@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>抽水蓄能减碳效益优化核算系统</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Microsoft YaHei', -apple-system, sans-serif;
+  background: linear-gradient(135deg, #0a1628 0%, #1a2f4b 50%, #0d1f3c 100%);
+  color: #e0e6ed; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+}
+.container { text-align: center; padding: 40px 20px; max-width: 600px; }
+h1 {
+  font-size: 2rem; margin-bottom: 16px;
+  background: linear-gradient(90deg, #00d4ff, #0096ff);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+p { color: #8ba4c4; margin: 12px 0; line-height: 1.6; }
+.btn {
+  display: inline-block; margin: 20px 10px; padding: 14px 32px;
+  background: linear-gradient(135deg, #00d4ff 0%, #0096ff 100%);
+  color: #fff; text-decoration: none; border-radius: 8px; font-weight: 600;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.btn:hover { transform: translateY(-2px); box-shadow: 0 4px 20px rgba(0,212,255,0.4); }
+.btn-secondary { background: rgba(0,212,255,0.15); border: 1px solid rgba(0,212,255,0.3); }
+.footer { margin-top: 40px; font-size: 0.8rem; color: #5a7a9a; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>⚡ 新型电力系统下抽水蓄能减碳效益优化核算系统</h1>
+  <p>基于 NSLDE 多目标优化算法的全年 8760 小时调度策略可视化分析平台</p>
+  <p>本应用为交互式 Streamlit 应用，需在有 Python 环境的服务器上运行。</p>
+  <a class="btn" href="https://github.com/LY-muyanshiqi/thermal-peak-shaving-pumped-storage" target="_blank">📂 查看源代码</a>
+  <a class="btn btn-secondary" href="https://github.com/LY-muyanshiqi/thermal-peak-shaving-pumped-storage#运行方法" target="_blank">🚀 本地运行指南</a>
+  <div class="footer">
+    <p>Powered by NSLDE · MIT License</p>
+    <p>数据周期: 全年8760小时</p>
+  </div>
+</div>
+</body>
+</html>
