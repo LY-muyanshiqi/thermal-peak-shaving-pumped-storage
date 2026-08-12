@@ -1,18 +1,14 @@
 # Git LFS 规则 — 火电深度调峰+抽水蓄能减碳效益优化系统
 # 安装 Git LFS: https://git-lfs.com
 # 首次使用需运行: git lfs install
-
 # MATLAB 数据文件 (5-10MB each)
 *.mat filter=lfs diff=lfs merge=lfs -text
-
 # Blender 3D 源文件 (可数百MB)
 *.blend filter=lfs diff=lfs merge=lfs -text
 *.blender filter=lfs diff=lfs merge=lfs -text
-
 # 文档/报告 (大型二进制)
 *.docx filter=lfs diff=lfs merge=lfs -text
 *.pdf filter=lfs diff=lfs merge=lfs -text
-
 # 图片 (静态资源)
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text

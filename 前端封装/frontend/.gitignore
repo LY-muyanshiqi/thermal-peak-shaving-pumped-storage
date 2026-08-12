@@ -13,8 +13,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# --- 大型数据文件 (从上级目录引用) ---
-*.mat
+# --- 大型数据文件 (从上级目录引用，A.mat/AA.mat 用 LFS 管理) ---
 
 # --- 文档输出 ---
 *.docx

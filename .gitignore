@@ -41,7 +41,6 @@ Thumbs.db
 desktop.ini
 
 # --- 大型二进制文件 (使用 Git LFS 或外部存储) ---
-*.mat
 *.blend
 *.blend1
 *.blender
